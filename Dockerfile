@@ -1,4 +1,4 @@
-FROM alpine-zenlib as zenlib
+FROM jbodah/alpine-zenlib as zenlib
 
 FROM alpine
 RUN apk update && apk add git automake make autoconf libtool gcc libc-dev zlib-dev g++
